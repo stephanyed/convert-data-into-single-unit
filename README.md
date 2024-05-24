@@ -7,13 +7,13 @@ Each factory used different units to measure their water usage, such as cubic me
 
 ## Benefits
 Instead of MS Excel formulas, Power Query is used for data transformation. With this data transformation:
-- file size is reduced
+- file size is reduced.
 - accidental edits to the code/formulas is avoided.
 
 ## Methodology
-- A conversion table with all the water source unit is created
-- Load both conversion table and factory raw data to Power Query
-- New columns of water data in liters are created for each source
+- A conversion table with all the water source unit is created.
+- Load both conversion table and factory raw data to Power Query.
+- New columns of water data in liters are created for each source.
 
 ```bash
     #"Added Custom1" = Table.AddColumn(#"Added Custom", "watersource 2 (liters)", each ConversionRate{[#"Original Unit"=[watersourceunit2]]}?[Convert to Universal Unit]?*[watersource2]),
