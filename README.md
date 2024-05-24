@@ -17,8 +17,6 @@ Wth this data transformation:
 - New columns of water data in liters are created for each source
 
 ```bash
-# Example:
-    #"Added Custom" = Table.AddColumn(#"Changed Type", "watersource 1 (liters)", each ConversionRate{[#"Original Unit"=[watersourceunit1]]}?[Convert to Universal Unit]?*[watersource1]),
     #"Added Custom1" = Table.AddColumn(#"Added Custom", "watersource 2 (liters)", each ConversionRate{[#"Original Unit"=[watersourceunit2]]}?[Convert to Universal Unit]?*[watersource2]),
     #"Added Custom2" = Table.AddColumn(#"Added Custom1", "watersource 3 (liters)", each ConversionRate{[#"Original Unit"=[watersourceunit3]]}?[Convert to Universal Unit]?*[watersource3]),
     #"Added Custom3" = Table.AddColumn(#"Added Custom2", "watersource 4 (liters)", each ConversionRate{[#"Original Unit"=[watersourceunit4]]}?[Convert to Universal Unit]?*[watersource4]),
