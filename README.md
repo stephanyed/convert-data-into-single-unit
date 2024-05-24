@@ -6,8 +6,7 @@ Data is collected from various factories, including information on their water u
 Each factory used different units to measure their water usage, such as cubic meters (m³), gallons (gal), CCF (hundred cubic feet), and liters.
 
 ## Benefits:
-Instead of MS Excel formulas, Power Query is used for data transformation.
-Wth this data transformation:
+Instead of MS Excel formulas, Power Query is used for data transformation. With this data transformation:
 - file size is reduced
 - accidental edits to the code/formulas is avoided.
 
