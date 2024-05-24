@@ -1,11 +1,11 @@
 ## Data Transformation with MS Excel Power Query
 The goal of this data transformation is to standardize all water usage units to liters (a single unit) for analysis.
 
-## Data Collection:
+## Data
 Data is collected from various factories, including information on their water usage from different sources.
 Each factory used different units to measure their water usage, such as cubic meters (m³), gallons (gal), CCF (hundred cubic feet), and liters.
 
-## Benefits:
+## Benefits
 Instead of MS Excel formulas, Power Query is used for data transformation. With this data transformation:
 - file size is reduced
 - accidental edits to the code/formulas is avoided.
