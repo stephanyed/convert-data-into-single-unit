@@ -1,5 +1,5 @@
 ## Data Transformation with MS Excel Power Query
-The goal of this data transformation is to standardize all water usage units to liters (a single unit) for analysis.
+The goal of this data transformation is to standardize all water usage units to liters (a single / standard unit of measure) for analysis.
 
 ## Data
 Data is collected from various factories, including information on their water usage from different sources.
